@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92afecb15b45c13aa5ef82d307daca75",
+    "content-hash": "033bec1136d8a75eb300added7854335",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -7862,6 +7862,207 @@
                 "phra"
             ],
             "time": "2015-10-13T18:44:15+00:00"
+        },
+        {
+            "name": "swissup/module-core",
+            "version": "1.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swissup/module-core.git",
+                "reference": "073fae906ed1fbb23898f2965acb496608412bac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swissup/module-core/zipball/073fae906ed1fbb23898f2965acb496608412bac",
+                "reference": "073fae906ed1fbb23898f2965acb496608412bac",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+            "keywords": [
+                "Module Manager",
+                "core",
+                "installer",
+                "notifier",
+                "popup messenger",
+                "swissup services"
+            ],
+            "time": "2018-11-13T07:42:42+00:00"
+        },
+        {
+            "name": "swissup/module-font-awesome",
+            "version": "1.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/swissup/module-font-awesome/swissup-module-font-awesome-1.3.0.0.zip",
+                "reference": null,
+                "shasum": "2133806cd942aca2b562bd0d5e977ad048d678d7"
+            },
+            "require": {
+                "swissup/module-core": "^1.7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\FontAwesome\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "FontAwesome for Magento2",
+            "keywords": [
+                "font",
+                "font awesome",
+                "font-awesome",
+                "fontawesome",
+                "icons"
+            ]
+        },
+        {
+            "name": "swissup/module-slick-carousel",
+            "version": "1.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/swissup/module-slick-carousel/swissup-module-slick-carousel-1.2.0.0.zip",
+                "reference": null,
+                "shasum": "c789401929339acab35ac8242f0c74d20a80e3e3"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "swissup": {
+                    "links": {
+                        "docs": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/",
+                        "changelog": "http://docs.swissuplabs.com/m2/extensions/slick-carousel/changelog/"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\SlickCarousel\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "the last carousel you'll ever need for magento2",
+            "keywords": [
+                "carousel",
+                "slick carousel",
+                "slider"
+            ]
+        },
+        {
+            "name": "swissup/module-theme-editor",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swissup/module-theme-editor.git",
+                "reference": "c3c5826d1c13502910cc07416e4bba6c65bd1cf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swissup/module-theme-editor/zipball/c3c5826d1c13502910cc07416e4bba6c65bd1cf8",
+                "reference": "c3c5826d1c13502910cc07416e4bba6c65bd1cf8",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\ThemeEditor\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Theme styles editing extension from Swissup",
+            "time": "2018-09-27T11:42:59+00:00"
+        },
+        {
+            "name": "swissup/module-theme-editor-swissup-absolute",
+            "version": "1.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/swissup/module-theme-editor-swissup-absolute/swissup-module-theme-editor-swissup-absolute-1.1.0.0.zip",
+                "reference": null,
+                "shasum": "c0e9aab27875f13f497e950cb3807c97a7ffe951"
+            },
+            "require": {
+                "swissup/module-theme-editor": "^1.5.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\ThemeEditorSwissupAbsolute\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Theme styles for Swissup Absolute theme"
+        },
+        {
+            "name": "swissup/theme-frontend-absolute",
+            "version": "1.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/swissup/theme-frontend-absolute/swissup-theme-frontend-absolute-1.2.0.0.zip",
+                "reference": null,
+                "shasum": "9920f4992c27dcdac95f29753dd28ac5ef94d37f"
+            },
+            "type": "magento2-theme",
+            "extra": {
+                "swissup": {
+                    "links": {
+                        "marketplace": "https://marketplace.magento.com/swissup-absolute-metapackage.html",
+                        "store": "https://swissuplabs.com/free-magento-2-theme-absolute.html",
+                        "docs": "http://docs.swissuplabs.com/m2/themes/absolute/",
+                        "changelog": "http://docs.swissuplabs.com/m2/themes/absolute/changelog/"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Absolute Theme for Magento 2",
+            "keywords": [
+                "absolute",
+                "free theme",
+                "responsive template",
+                "responsive theme",
+                "template",
+                "theme"
+            ]
         },
         {
             "name": "symfony/console",

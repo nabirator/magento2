@@ -143,6 +143,11 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
+        'Swissup_Core' => 1,
+        'Swissup_FontAwesome' => 1,
+        'Swissup_SlickCarousel' => 1,
+        'Swissup_ThemeEditor' => 1,
+        'Swissup_ThemeEditorSwissupAbsolute' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'Ves_Setup' => 1
