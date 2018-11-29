@@ -33,7 +33,8 @@
         "swissup/theme-frontend-absolute": "^1.2.0",
         "swissup/module-font-awesome": "^1.3.0",
         "swissup/module-slick-carousel": "^1.2.0",
-        "swissup/module-theme-editor-swissup-absolute": "^1.1.0"
+        "swissup/module-theme-editor-swissup-absolute": "^1.1.0",
+        "mollie/magento2": "^1.4"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.2.0",
