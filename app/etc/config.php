@@ -143,6 +143,7 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
+        'Magestore_HelloMagento' => 1,
         'Mollie_Payment' => 1,
         'Swissup_Core' => 1,
         'Swissup_FontAwesome' => 1,
