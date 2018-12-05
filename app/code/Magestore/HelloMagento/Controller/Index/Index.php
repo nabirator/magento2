@@ -6,7 +6,7 @@ class Index extends \Magento\Framework\App\Action\Action
 {
     public function execute()
     {
-        echo 'Hello Magento 2! We will change the world!';
+        echo 'Hello Magento 2!';
         exit;
     }
 }

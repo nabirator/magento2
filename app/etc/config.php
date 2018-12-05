@@ -452,10 +452,10 @@ Disallow: /*SID=
                     ',
                 ],
                 'header' => [
-                    'welcome' => 'Default welcome msg!',
+                    'welcome' => 'Welcome to Magento 2.3.0',
                 ],
                 'footer' => [
-                    'copyright' => 'Copyright © 2013-present Magento, Inc. All rights reserved.',
+                    'copyright' => 'Copyright © 2018-present Magento, Inc. All rights reserved.',
                 ],
                 'watermark' => [
                     'image_position' => 'stretch',
@@ -680,7 +680,7 @@ Disallow: /*SID=
                     'lockout_threshold' => '30',
                     'password_lifetime' => '90',
                     'password_is_forced' => '1',
-                    'session_lifetime' => '900',
+                    'session_lifetime' => '7200',
                 ],
                 'emails' => [
                     'forgot_email_template' => 'admin_emails_forgot_email_template',
