@@ -26,18 +26,15 @@ define([
                 'items': [
                     {
                         'item_id': 1,
-                        'product_sku': 'bundle',
-                        'product_id': '1'
+                        'product_sku': 'bundle'
                     },
                     {
                         'item_id': 5,
-                        'product_sku': 'simple',
-                        'product_id': '5'
+                        'product_sku': 'simple'
                     },
                     {
                         'item_id': 7,
-                        'product_sku': 'configurable',
-                        'product_id': '7'
+                        'product_sku': 'configurable'
                     }
                 ]
             },
@@ -66,9 +63,7 @@ define([
 
                 sidebar._removeItemAfter(elem);
                 expect(mocks['Magento_Customer/js/customer-data'].get).toHaveBeenCalledWith('cart');
-                expect(jQuery('body').trigger).toHaveBeenCalledWith('ajax:removeFromCart', {
-                    'productIds': ['5']
-                });
+                expect(jQuery('body').trigger).toHaveBeenCalledWith('ajax:removeFromCart', 'simple');
             });
 
             it('Cart item doesn\'t exists', function () {
@@ -96,7 +91,7 @@ define([
 
                 sidebar._updateItemQtyAfter(elem);
                 expect(mocks['Magento_Customer/js/customer-data'].get).toHaveBeenCalledWith('cart');
-                expect(jQuery('body').trigger).toHaveBeenCalledWith('ajax:updateCartItemQty');
+                expect(jQuery('body').trigger).toHaveBeenCalledWith('ajax:updateCartItemQty', 'simple');
                 expect(sidebar._hideItemButton).toHaveBeenCalledWith(elem);
             });
 

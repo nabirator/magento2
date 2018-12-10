@@ -6,7 +6,7 @@
 
 return [
     'empty_required_field' => [
-        'title' => null,
+        'title' => '',
         'type' => 'field',
         'sort_order' => 1,
         'is_require' => 1,
@@ -43,7 +43,7 @@ return [
                 'price' => 10.0,
                 'price_type' => 'fixed',
                 'sku' => 'radio option 1 sku',
-                'title' => null,
+                'title' => '',
                 'sort_order' => 1,
             ],
         ],
